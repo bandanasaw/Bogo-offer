@@ -205,6 +205,6 @@ input[type="radio"]:checked {
 }
 
 .option-label.expanded input[type="radio"]:checked{
-    margin-top: -50px;
+    margin-top: -60px;
 }
 
