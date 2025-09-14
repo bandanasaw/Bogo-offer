@@ -45,7 +45,7 @@ body {
     align-items: center;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 12px;
+    padding: 15px;
     cursor: pointer;
     position: relative;
     transition: border-color 0.3s;
@@ -198,5 +198,13 @@ input[type="radio"]:checked {
 .option-label.expanded .sizes {
     display: flex;
     gap: 10px;
+}
+
+.option-label.expanded .right {
+    margin-top: -50px;
+}
+
+.option-label.expanded input[type="radio"]:checked{
+    margin-top: -50px;
 }
 
